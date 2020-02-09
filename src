@@ -1,0 +1,15 @@
+float x = 0;
+float y = 0;
+void setup() {
+// setup here
+size (400,400);
+
+}
+void draw () {
+// draw here
+strokeWeight(random(10));
+stroke(10,random(200),40);
+x = random(width);
+y = random(height);
+line (x+(random(-15,20)),y+(random(100,150)),x,height);
+}
